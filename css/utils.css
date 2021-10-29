@@ -1,0 +1,73 @@
+/* Making the variables in css */
+:root{
+    --bg-color: crimson;
+    --font-size1: 16px;
+    --heading: 25px;
+    --bg-hover1: blue;
+    --text-hover: crimson; 
+    --main-heading: 27px;
+    --content-para: 18px;
+    --text-color: #0072ff;
+}
+
+.max-width1{
+    max-width: 80vw;
+}
+
+.max-width2{
+    max-width: 70vw;
+}
+
+.margin-auto{
+    margin: auto;
+}
+.btn{
+    padding: 9px 16px;
+    /* font-size: var(--font-size1); */
+    font-size: 21px;
+    border-radius: 5px;
+    /* border: 2px solid crimson; */
+    background-image: linear-gradient(to right, #00c6ff , #0072ff)
+
+}
+.btn:hover{
+    background-image: linear-gradient(to left,#00c6ff , #0072ff );
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.main-heading{
+    font-size: var(--main-heading);
+    padding: 20px 10px;
+    margin: 10px 0;
+}
+.content-para{
+    font-size: var(--content-para);
+    padding: 20px 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+.section-heading{
+    font-size: var(--font-size1);
+    text-transform: uppercase;
+    color: var(--text-color);
+    text-align: center;
+}
+.font{
+    font-size: 18px;
+    color: rgb(3, 3, 3);
+}
+
+
+/* For making the subtitle and horizontal line in the heading section */
+
+ .line-hr{
+    width: 70px;
+    height: 5px;
+    background-color: #0078ff;
+    
+}
+/* .subtitle{
+    color: greenyellow;
+} */ 
